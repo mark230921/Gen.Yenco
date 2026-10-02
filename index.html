@@ -294,13 +294,13 @@
                 showToast('Thank you for submitting your suggestion!', 'success');
                 suggestionInput.value = '';
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit Suggestion';
+                submitBtn.textContent = 'Submit';
             })
             .catch(error => {
                 console.error('Error!', error);
                 showToast('Oops! Something went wrong. Try again.', 'error');
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Submit Suggestion';
+                submitBtn.textContent = 'Submit';
             });
         });
     </script>
